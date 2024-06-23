@@ -58,19 +58,19 @@
     "url": "https://lb-02.m4d3bug.com",
     "icon": "https://icons.duckduckgo.com/ip3/lb-02.m4d3bug.com.ico",
     "slug": "lb-02",
-    "status": "up",
-    "uptime": "47.33%",
-    "uptimeDay": "47.33%",
-    "uptimeWeek": "47.33%",
-    "uptimeMonth": "47.33%",
-    "uptimeYear": "47.33%",
-    "time": 3619,
-    "timeDay": 3619,
-    "timeWeek": 3619,
-    "timeMonth": 3619,
-    "timeYear": 3619,
+    "status": "down",
+    "uptime": "55.64%",
+    "uptimeDay": "55.64%",
+    "uptimeWeek": "55.64%",
+    "uptimeMonth": "55.64%",
+    "uptimeYear": "55.64%",
+    "time": 3906,
+    "timeDay": 3906,
+    "timeWeek": 3906,
+    "timeMonth": 3906,
+    "timeYear": 3906,
     "dailyMinutesDown": {
-      "2024-06-23": 75
+      "2024-06-23": 67
     }
   },
   {
