@@ -1,31 +1,59 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: m4d3bug # Your GitHub organization or username, where this repository lives
+repo: upptime-prod # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Blog
+    url: https://blog.madebug.net
+    expectedStatusCodes:
+      - 200
+  - name: LB-00
+    url: https://lb-00.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: LB-01
+    url: https://lb-01.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: LB-02
+    url: https://lb-02.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: LB-03
+    url: https://lb-03.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: LB-04
+    url: https://lb-04.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: Whoogle
+    url: https://whoogle.madebug.net
+    expectedStatusCodes:
+      - 200
+  - name: AI
+    url: https://ai.madebug.net
+    expectedStatusCodes:
+      - 200
+  - name: CFyes
     check: "tcp-ping"
-    ipv6: true
+    url: cfyes.m4d3bug.com
+    port: 443
+  - name: Google DNS 
+    check: "tcp-ping"
+    url: 8.8.4.4
+    port: 53
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: upptime-prod.madebug.net
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
+  theme: dark
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: This is m4d3bug's status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
