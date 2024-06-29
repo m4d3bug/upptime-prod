@@ -8,27 +8,33 @@ sites:
     expectedStatusCodes:
       - 200
   - name: LB-00
-    url: https://lb-00.m4d3bug.com
+    url: https://lb-00.m4d3bug.com/check
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: LB-01
-    url: https://lb-01.m4d3bug.com
+    url: https://lb-01.m4d3bug.com/check
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: LB-02
-    url: https://lb-02.m4d3bug.com
+    url: https://lb-02.m4d3bug.com/check
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: LB-03
-    url: https://lb-03.m4d3bug.com
+    url: https://lb-03.m4d3bug.com/check
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: LB-04
-    url: https://lb-04.m4d3bug.com
+    url: https://lb-04.m4d3bug.com/check
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: Whoogle
     url: https://whoogle.madebug.net
+    __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
   - name: AI
@@ -44,16 +50,18 @@ sites:
     url: 8.8.4.4
     port: 53
 
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: upptime-prod.madebug.net
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  theme: dark
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is m4d3bug's status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://github.com/m4d3bug/m4d3bug.github.io/blob/gh-pages/themes/next/source/images/avatar.jpg?raw=true
+  # logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: m4d3bug Status Page
+  theme: night
+  introTitle: "m4d3bug's main products and services"
+  introMessage: Concentrate on displaying the **operational status and availability information** of by real-time data.
   navbar:
     - title: Status
       href: /
