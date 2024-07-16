@@ -127,19 +127,19 @@
     "url": "https://whoogle.madebug.net",
     "icon": "https://icons.duckduckgo.com/ip3/whoogle.madebug.net.ico",
     "slug": "whoogle",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 852,
-    "timeDay": 739,
-    "timeWeek": 575,
-    "timeMonth": 852,
-    "timeYear": 852,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "99.01%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 837,
+    "timeDay": 638,
+    "timeWeek": 560,
+    "timeMonth": 837,
+    "timeYear": 837,
     "dailyMinutesDown": {
-      "2024-07-16": 0
+      "2024-07-16": 14
     }
   },
   {
