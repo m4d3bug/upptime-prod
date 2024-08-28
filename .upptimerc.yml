@@ -32,6 +32,11 @@ sites:
     __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
+  - name: FREE
+    url: https://free.m4d3bug.com
+    __dangerous__disable_verify_peer: true
+    expectedStatusCodes:
+      - 400
   - name: Whoogle
     url: https://whoogle.madebug.net
     __dangerous__disable_verify_peer: true
