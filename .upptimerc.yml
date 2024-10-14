@@ -3,10 +3,26 @@ owner: m4d3bug # Your GitHub organization or username, where this repository liv
 repo: upptime-prod # The name of this repository
 
 sites:
-  - name: Blog
+  - name: WHOOGLE
+    url: https://whoogle.madebug.net
+    expectedStatusCodes:
+      - 200
+  - name: AI
+    url: https://ai.madebug.net
+    expectedStatusCodes:
+      - 200
+  - name: BLOG
     url: https://blog.madebug.net
     expectedStatusCodes:
       - 200
+  - name: STATUS
+    url: https://status.m4d3bug.com
+    expectedStatusCodes:
+      - 200
+  - name: CFYES
+    check: "tcp-ping"
+    url: cfyes.m4d3bug.com
+    port: 443
   - name: LB-00
     url: https://lb-00.m4d3bug.com/check
     __dangerous__disable_verify_peer: true
@@ -27,23 +43,6 @@ sites:
     __dangerous__disable_verify_peer: true
     expectedStatusCodes:
       - 200
-  - name: Whoogle
-    url: https://whoogle.madebug.net
-    __dangerous__disable_verify_peer: true
-    expectedStatusCodes:
-      - 200
-  - name: AI
-    url: https://ai.madebug.net
-    expectedStatusCodes:
-      - 200
-  - name: CFyes
-    check: "tcp-ping"
-    url: cfyes.m4d3bug.com
-    port: 443
-  - name: Google DNS 
-    check: "tcp-ping"
-    url: 8.8.4.4
-    port: 53
 
 
 status-website:
