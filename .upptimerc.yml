@@ -15,10 +15,6 @@ sites:
     url: https://blog.madebug.net
     expectedStatusCodes:
       - 200
-  - name: STATUS
-    url: https://status.m4d3bug.com
-    expectedStatusCodes:
-      - 200
   - name: CFYES
     check: "tcp-ping"
     url: cfyes.m4d3bug.com
