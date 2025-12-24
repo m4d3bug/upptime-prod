@@ -45,19 +45,19 @@
     "url": "https://blog.madebug.net",
     "icon": "https://icons.duckduckgo.com/ip3/blog.madebug.net.ico",
     "slug": "blog",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "97.78%",
+    "uptimeWeek": "99.68%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.99%",
     "time": 170,
-    "timeDay": 106,
-    "timeWeek": 236,
-    "timeMonth": 216,
+    "timeDay": 115,
+    "timeWeek": 225,
+    "timeMonth": 213,
     "timeYear": 178,
     "dailyMinutesDown": {
-      "2025-12-24": 0
+      "2025-12-24": 32
     }
   },
   {
@@ -117,7 +117,7 @@
     "uptime": "44.42%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "58.88%",
+    "uptimeMonth": "58.81%",
     "uptimeYear": "25.68%",
     "time": 328,
     "timeDay": 0,
@@ -125,7 +125,7 @@
     "timeMonth": 116,
     "timeYear": 368,
     "dailyMinutesDown": {
-      "2025-12-24": 959,
+      "2025-12-24": 991,
       "2025-12-23": 1440,
       "2025-12-22": 1440,
       "2025-12-21": 1440,
@@ -418,7 +418,7 @@
     "timeMonth": 0,
     "timeYear": 197,
     "dailyMinutesDown": {
-      "2025-12-24": 959,
+      "2025-12-24": 991,
       "2025-12-23": 1440,
       "2025-12-22": 1440,
       "2025-12-21": 1440,
