@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "98.15%",
     "time": 190,
-    "timeDay": 242,
-    "timeWeek": 272,
-    "timeMonth": 236,
+    "timeDay": 143,
+    "timeWeek": 261,
+    "timeMonth": 234,
     "timeYear": 192,
     "dailyMinutesDown": {
       "2026-01-22": 46,
@@ -54,9 +54,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 175,
-    "timeDay": 129,
-    "timeWeek": 184,
-    "timeMonth": 162,
+    "timeDay": 114,
+    "timeWeek": 179,
+    "timeMonth": 161,
     "timeYear": 185,
     "dailyMinutesDown": {
       "2025-12-24": 32
@@ -71,11 +71,11 @@
     "uptime": "99.95%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.91%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 9,
-    "timeDay": 15,
-    "timeWeek": 9,
+    "timeDay": 6,
+    "timeWeek": 10,
     "timeMonth": 15,
     "timeYear": 9,
     "dailyMinutesDown": {
@@ -103,11 +103,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 540,
-    "timeDay": 295,
-    "timeWeek": 234,
+    "time": 538,
+    "timeDay": 111,
+    "timeWeek": 241,
     "timeMonth": 189,
-    "timeYear": 540,
+    "timeYear": 538,
     "dailyMinutesDown": {}
   },
   {
@@ -116,7 +116,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/lb-01.m4d3bug.com.ico",
     "slug": "lb-01",
     "status": "down",
-    "uptime": "39.43%",
+    "uptime": "39.37%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "7.96%",
@@ -125,9 +125,10 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 412,
+    "timeYear": 413,
     "dailyMinutesDown": {
-      "2026-03-04": 164,
+      "2026-03-05": 167,
+      "2026-03-04": 1440,
       "2026-03-03": 1440,
       "2026-03-02": 1440,
       "2026-03-01": 1440,
@@ -399,8 +400,7 @@
       "2025-03-09": 1440,
       "2025-03-08": 1440,
       "2025-03-07": 1440,
-      "2025-03-06": 1440,
-      "2025-03-05": 1440
+      "2025-03-06": 1440
     }
   },
   {
@@ -409,7 +409,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/lb-03.m4d3bug.com.ico",
     "slug": "lb-03",
     "status": "down",
-    "uptime": "48.25%",
+    "uptime": "48.17%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "7.96%",
@@ -420,7 +420,8 @@
     "timeMonth": 0,
     "timeYear": 178,
     "dailyMinutesDown": {
-      "2026-03-04": 164,
+      "2026-03-05": 167,
+      "2026-03-04": 1440,
       "2026-03-03": 1440,
       "2026-03-02": 1440,
       "2026-03-01": 1440,
@@ -723,8 +724,7 @@
       "2025-03-09": 1440,
       "2025-03-08": 1440,
       "2025-03-07": 1440,
-      "2025-03-06": 1440,
-      "2025-03-05": 1440
+      "2025-03-06": 1440
     }
   }
 ]
